@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sandboxed URL Opener</title>
+  <style>
+    body { width: 300px; padding: 10px; }
+    input { width: 100%; margin-bottom: 10px; }
+    button { width: 100%; }
+    .notice {
+      margin-top: 10px;
+      font-size: 12px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h3>VRJ*SandBox</h3>
+  <input type="text" id="urlInput" placeholder="Enter URL">
+  <button id="openButton">Open in Sandbox</button>
+    <p class="notice">Notice: File downloads are blocked in the sandboxed environment for your security.</p>
+  <script src="popup.js"></script>
+</body>
+</html>
