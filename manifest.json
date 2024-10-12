@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Sandboxed URL Opener",
+    "version": "1.0",
+    "description": "Open URLs in a sandboxed environment",
+    "permissions": ["tabs", "windows"],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "content_security_policy": "sandbox allow-scripts; script-src 'self'"
+  }
